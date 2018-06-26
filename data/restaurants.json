@@ -1,392 +1,402 @@
 {
   "restaurants": [{
     "id": 1,
-    "name": "Mission Chinese Food",
-    "neighborhood": "Manhattan",
+    "name": "Meat Lovers",
+    "neighborhood": "Klaipeda",
     "photograph": "1.jpg",
-    "address": "171 E Broadway, New York, NY 10002",
+    "address": "Danės g.1",
+    "alt": "restaraunt building by the sea side",
     "latlng": {
-      "lat": 40.713829,
-      "lng": -73.989667
+      "lat": 55.7065358,
+      "lng": 21.12324030000002
     },
-    "cuisine_type": "Asian",
+    "cuisine_type": "Grill",
     "operating_hours": {
-      "Monday": "5:30 pm - 11:00 pm",
-      "Tuesday": "5:30 pm - 12:00 am",
-      "Wednesday": "5:30 pm - 12:00 am",
-      "Thursday": "5:30 pm - 12:00 am",
-      "Friday": "5:30 pm - 12:00 am",
-      "Saturday": "12:00 pm - 4:00 pm, 5:30 pm - 12:00 am",
-      "Sunday": "12:00 pm - 4:00 pm, 5:30 pm - 11:00 pm"
+      "Monday": "10:00 - 22:00",
+      "Tuesday": "10:00 - 22:00",
+      "Wednesday": "10:00 - 22:00",
+      "Thursday": "10:00 - 22:00",
+      "Friday": "10:00 - 23:00",
+      "Saturday": "10:00 - 23:00",
+      "Sunday": "10:00 - 23:00"
     },
     "reviews": [{
-        "name": "Steve",
-        "date": "October 26, 2016",
+        "name": "Raymond",
+        "date": "February 6, 2018",
         "rating": 4,
-        "comments": "Mission Chinese Food has grown up from its scrappy Orchard Street days into a big, two story restaurant equipped with a pizza oven, a prime rib cart, and a much broader menu. Yes, it still has all the hits — the kung pao pastrami, the thrice cooked bacon —but chef/proprietor Danny Bowien and executive chef Angela Dimayuga have also added a raw bar, two generous family-style set menus, and showstoppers like duck baked in clay. And you can still get a lot of food without breaking the bank."
+        "comments": "No complaints about the location, the food and the view. 10/10 for everything. This is also an excellent place for a quick coffee, beer or indeed anything to do with meat! Located at the Ferry Terminal which docks right in front of the window where you are seated. It is only a short walk from the Old Town and the prices are reasonable. I can highly recommend this restaurant (perhaps not your usual evening type of restaurant) but well worth a visit."
       },
       {
-        "name": "Morgan",
-        "date": "October 26, 2016",
-        "rating": 4,
-        "comments": "This place is a blast. Must orders: GREEN TEA NOODS, sounds gross (to me at least) but these were incredible!, Kung pao pastrami (but you already knew that), beef tartare was a fun appetizer that we decided to try, the spicy ma po tofu SUPER spicy but delicous, egg rolls and scallion pancake i could have passed on... I wish we would have gone with a larger group, so much more I would have liked to try!"
+        "name": "Saida",
+        "date": "December 15, 2017",
+        "rating": 5,
+        "comments": "Best steaks in town. Location is amazing, fillet steak is also amazing! Service is very professional, cozy atmosphere."
       },
       {
-        "name": "Jason",
-        "date": "October 26, 2016",
-        "rating": 3,
-        "comments": "I was VERY excited to come here after seeing and hearing so many good things about this place. Having read much, I knew going into it that it was not going to be authentic Chinese. The place was edgy, had a punk rock throwback attitude, and generally delivered the desired atmosphere. Things went downhill from there though. The food was okay at best and the best qualities were easily overshadowed by what I believe to be poor decisions by the kitchen staff."
+        "name": "Andzej",
+        "date": "July 9, 2017",
+        "rating": 4,
+        "comments": "Perfect place to see the sunset. Nice place, good food and cozy atmosphere on the terrace. Not the fancy place, but a good place to spend time with friends."
       }
     ]
   }, {
     "id": 2,
-    "name": "Emily",
-    "neighborhood": "Brooklyn",
+    "name": "Monai",
+    "neighborhood": "Klaipeda",
     "photograph": "2.jpg",
-    "address": "919 Fulton St, Brooklyn, NY 11238",
+    "address": "Liepu g. 4",
+    "alt": "dish on the plate",
     "latlng": {
-      "lat": 40.683555,
-      "lng": -73.966393
+      "lat": 55.7117309,
+      "lng": 21.13243280000006
     },
-    "cuisine_type": "Pizza",
+    "cuisine_type": "European",
     "operating_hours": {
-      "Monday": "5:30 pm - 11:00 pm",
-      "Tuesday": "5:30 pm - 11:00 pm",
-      "Wednesday": "5:30 pm - 11:00 pm",
-      "Thursday": "5:30 pm - 11:00 pm",
-      "Friday": "5:30 pm - 11:00 pm",
-      "Saturday": "5:00 pm - 11:30 pm",
-      "Sunday": "12:00 pm - 3:00 pm, 5:00 pm - 11:00 pm"
+      "Monday": "Day off",
+      "Tuesday": "11:30 - 22:00",
+      "Wednesday": "11:30 - 22:00",
+      "Thursday": "11:30 - 22:00",
+      "Friday": "11:30 - 22:00",
+      "Saturday": "11:00 - 22:00",
+      "Sunday": "11:00 - 16:00"
     },
     "reviews": [{
-        "name": "Steph",
-        "date": "October 26, 2016",
-        "rating": 4,
-        "comments": "Five star food, two star atmosphere. I would definitely get takeout from this place - but dont think I have the energy to deal with the hipster ridiculousness again. By the time we left the wait was two hours long."
-      },
-      {
-        "name": "Steve",
-        "date": "October 26, 2016",
-        "rating": 4,
-        "comments": "This cozy Clinton Hill restaurant excels at both straightforward and unusual wood-fired pizzas. If you want a taste of the latter, consider ordering the Emily, which is topped with mozzarella, pistachios, truffled sottocenere cheese, and honey. The menu includes salads and a handful of starters, as well as a burger that some meat connoisseurs consider to be among the best in the city."
-      },
-      {
-        "name": "Sam",
-        "date": "October 26, 2016",
+        "name": "Milda",
+        "date": "June 18, 2018",
         "rating": 5,
-        "comments": "5 star atmosphere as it is very cozy with great staff. 5 star food as their Emmy burger is outrageously good. and its on a pretzel bun.. Too juicy for its own good and downright addicting. Also try the Colony pizza. Many others looked like worth competitors, but the Colony really found its way to my heart. when you start with a great crust, top it with top notch cheese and sauce, you've got a winner. But, if you go a step further and add the salty from the pepperoni, the sweet from the honey, and the spicy from the chili oil.... your mouth is confused and happy at the same time."
+        "comments": "This place is very similar to home. Little cozy tables, bar looks like kitchen, vintage furniture, but very minimalist and stylish. The service is brilliant. The food is perfect from snacks to deserts, recommend to taste everything. It is the best place to have dinner in Klaipėda. Also try brunch in weekends, so tasty!"
+      },
+      {
+        "name": "Liu",
+        "date": "June 1, 2018",
+        "rating": 5,
+        "comments": "I come to this restaurant every time I happen to be in Klaipeda and it continues to deliver to the highest standards every time! Their tuna tartare is out of this world; I never had a better version anywhere else in the world. This time it was asparagus season, so I tried asparagus with poached egg and it was excellent. Desserts are a pure feast for tastebuds and I love taking all of them and sharing with family or colleagues. Service here is great and they manage to retain waiters for a long time. Prices are moderate, especially having in mind great quality. Highly recommend!"
+      },
+      {
+        "name": "Edmundas",
+        "date": "April 21, 2018",
+        "rating": 5,
+        "comments": "Great place for tasty journey in culinary world!! Located in a city center, easy to find. Salmon tartar is probably the best you can get in Lithuania. Food is modern and very well prepared. Staff is reacting to your smallest comment or wish. For me, Monai is the place to eat breakfast! Amazing egg Benedict."
       }
     ]
   }, {
     "id": 3,
-    "name": "Kang Ho Dong Baekjeong",
-    "neighborhood": "Manhattan",
+    "name": "MOMO Grill",
+    "neighborhood": "Klaipeda",
     "photograph": "3.jpg",
-    "address": "1 E 32nd St, New York, NY 10016",
+    "address": "Liepu g. 20",
+    "alt": "food preparation with fire on the plate",
     "latlng": {
-      "lat": 40.747143,
-      "lng": -73.985414
+      "lat": 55.7131692,
+      "lng": 21.13675319999993
     },
-    "cuisine_type": "Asian",
+    "cuisine_type": "Grill",
     "operating_hours": {
-      "Monday": "11:30 am - 2:00 am",
-      "Tuesday": "11:30 am - 2:00 am",
-      "Wednesday": "11:30 am - 2:00 am",
-      "Thursday": "11:30 am - 2:00 am",
-      "Friday": "11:30 am - 6:00 am",
-      "Saturday": "11:30 am - 6:00 am",
-      "Sunday": "11:30 am - 2:00 am"
+      "Monday": "Day off",
+      "Tuesday": "11:00 - 22:00",
+      "Wednesday": "11:00 - 22:00",
+      "Thursday": "11:00 - 22:00",
+      "Friday": "11:00 - 23:00",
+      "Saturday": "12:00 - 22:00",
+      "Sunday": "Day off"
     },
     "reviews": [{
-        "name": "Steve",
-        "date": "October 26, 2016",
+        "name": "Miguel",
+        "date": "June 18, 2018",
         "rating": 4,
-        "comments": "The tables at this 32nd Street favorite are outfitted with grills for cooking short ribs, brisket, beef tongue, rib eye, and pork jowl. The banchan plates are uniformly good, and Deuki Hong’s menu also includes winning dishes like stir-fried squid noodles, kimchi stew, and seafood pancakes. If it’s available, make sure to order the kimchi and rice “lunchbox.” Baekjeong is a great place for large groups and birthday parties."
+        "comments": "This is a very nice and cozy restaurant. Very few tables, with very well cooked meals. The service is great. The type of place you’ll definitely want to return."
       },
       {
-        "name": "ZS",
-        "date": "October 26, 2016",
+        "name": "Romas",
+        "date": "February 17, 2018",
         "rating": 5,
-        "comments": "I've been to Korea before and many other Korean BBQ places. We had the regular pork belly and a beef (forgot which cut) and a seafood tofu soup. Two meat and a soup was just prefect for the two of us. We could have done one meat and one soup. The portions of the meat are great! The beef was juicy, tender and so good. The sides were excellent. "
+        "comments": "They don’t have large selection, not lots of space. Yet the food is really delicious and the staff is very friendly. Reserve a table as chances to get a table by walking in during popular hours are really low."
       },
       {
-        "name": "Emily",
-        "date": "October 26, 2016",
-        "rating": 2,
-        "comments": "MEH. I've tried their Jersey location as well but Kang Ho Dong meat quality is severely decreasing. A Korean bbq place with whatever meat? I think NOT!"
+        "name": "Laima",
+        "date": "September 23, 2017",
+        "rating": 5,
+        "comments": "Not a really fine dining, luxury or most romantic place, but highly recommend to visit because of very good food and exclusive kind of service communication. Incredible genuine attention and honest communication makes you feel very much welcome and increase the pleasure to spend the time by tasting delicious food."
       }
     ]
   }, {
     "id": 4,
-    "name": "Katz's Delicatessen",
-    "neighborhood": "Manhattan",
+    "name": "Friedrich passage",
+    "neighborhood": "Klaipeda",
     "photograph": "4.jpg",
-    "address": "205 E Houston St, New York, NY 10002",
+    "address": "Tiltu g. 26A",
+    "alt": "restaurant street in the evening lights",
     "latlng": {
-      "lat": 40.722216,
-      "lng": -73.987501
+      "lat": 55.707072,
+      "lng": 21.138050799999974
     },
-    "cuisine_type": "American",
+    "cuisine_type": "European",
     "operating_hours": {
-      "Monday": "8:00 am - 10:30 pm",
-      "Tuesday": "8:00 am - 10:30 pm",
-      "Wednesday": "8:00 am - 10:30 pm",
-      "Thursday": "8:00 am - 2:30 am",
-      "Friday": "8:00 am - Sat",
-      "Saturday": "Open 24 hours",
-      "Sunday": "Sat - 10:30 pm"
+      "Monday": "08:00 - 23:00",
+      "Tuesday": "08:00 - 02:00",
+      "Wednesday": "08:00 - 02:00",
+      "Thursday": "08:00 - 02:00",
+      "Friday": "08:00 - 02:00",
+      "Saturday": "08:00 - 02:00",
+      "Sunday": "09:00 - 23:00"
     },
     "reviews": [{
-        "name": "Steve",
-        "date": "October 26, 2016",
+        "name": "Darius",
+        "date": "June 19, 2018",
         "rating": 5,
-        "comments": "In 127 years, little has changed at Katz's. It remains one of New York's — and the country's — essential Jewish delicatessens. Every inch of the massive Lower East Side space smells intensely of pastrami and rye loaves. The sandwiches are massive, so they are best when shared. Order at the counter, and don't forget to tip your slicer — your sandwich will be better for it."
+        "comments": "Exelent place for romantic diner! Exelent place for romantic diner! Recommended from spring till autumn for sitting outside. Good quality food, perfect service."
       },
       {
-        "name": "Allen",
-        "date": "October 26, 2016",
-        "rating": 5,
-        "comments": "If I lived in NY and got diabetes from eating here every single time I ate, I would do it over and over and over again just for that first bite. These guys know how to make a sandwich. The heart attack comes free of charge! Came by while I was visiting NYC. First pit-stop when I come back :)!"
+        "name": "Darius",
+        "date": "April 9, 2018",
+        "rating": 3,
+        "comments": "Pretty averagefood for high enough prices, there is better places to eat than this one. Plus it depends from cook, cause there is one who ruins your food and the other one making it decent."
       },
       {
-        "name": "David",
-        "date": "October 26, 2016",
-        "rating": 2,
-        "comments": "Ok so four of us came. One more later who didn't order becauase it's so expensive and simple. Seriously, a bunch of meat albeit you can sample beforehand on rye/white/wheat bread. Cheese extra. Pickles free, you can just ask them at the pickup counter. But seriously 20 bucks gone for an non-flavored half sandwich. And a line that is long, especially if you want seating. I'm down to just take a quick look where Sally and Harry sat and leave to the other delis all around NYC. Oh and they accept Samsung pay."
+        "name": "Carolina",
+        "date": "September 4, 2017",
+        "rating": 3,
+        "comments": "Interesting concept; food good but not great. A developer has taken an old narrow alley/passageway and has re-created a European street with a variety of restaurants and shops. For redevelopment it is a pleasant concept with outdoor seating at the various restaurants, plenty of flowers and various concepts from which to choose. We ate at the restaurant. Service was fine and the ambiance was pleasant and light."
       }
     ]
   }, {
     "id": 5,
-    "name": "Roberta's Pizza",
-    "neighborhood": "Brooklyn",
+    "name": "Kavos Architektai",
+    "neighborhood": "Klaipeda",
     "photograph": "5.jpg",
-    "address": "261 Moore St, Brooklyn, NY 11206",
+    "address": "H. Manto g. 9",
+    "alt": "coffee-shop white interior",
     "latlng": {
-      "lat": 40.705089,
-      "lng": -73.933585
+      "lat": 55.714375,
+      "lng": 21.12967589999994
     },
-    "cuisine_type": "Pizza",
+    "cuisine_type": "Cafe",
     "operating_hours": {
-      "Monday": "11:00 am - 12:00 am",
-      "Tuesday": "11:00 am - 12:00 am",
-      "Wednesday": "11:00 am - 12:00 am",
-      "Thursday": "11:00 am - 12:00 am",
-      "Friday": "11:00 am - 12:00 am",
-      "Saturday": "10:00 am - 12:00 am",
-      "Sunday": "10:00 am - 12:00 am"
+      "Monday": "07:00 - 19:00",
+      "Tuesday": "07:00 - 19:00",
+      "Wednesday": "07:00 - 19:00",
+      "Thursday": "07:00 - 19:00",
+      "Friday": "07:00 - 19:00",
+      "Saturday": "10:00 - 16:00",
+      "Sunday": "Day off"
     },
     "reviews": [{
-        "name": "Steve",
-        "date": "October 26, 2016",
-        "rating": 4,
-        "comments": "Roberta's is the epicenter of the modern Brooklyn food scene.The pizzas are fantastic, but the restaurant really flexes its muscles with the vegetable dishes. In addition to the pies, consider ordering the radishes, the romaine salad, the roasted beets, and some of the charcuterie."
+        "name": "Indre",
+        "date": "May 23, 2018",
+        "rating": 5,
+        "comments": "Very welcoming staff! Great atmosphere inside and good spot outside to sit and enjoy the central street. Coconut icecream was a blast!"
       },
       {
-        "name": "Raymond",
-        "date": "October 26, 2016",
-        "rating": 4,
-        "comments": "Roberta's, one of the better pizzas I have had in my life. Very trendy and hipsterish spot. Came here for lunch on a random weekday afternoon and when we arrived, there was a line forming already. The space is a bit cramped. You'll get to know your neighbors soon enough. The pizza is just delightful and delicious. It's a ncie plus that you get to see them firing up the pizzas in the corner. The major issue with Roberta's is the trek out to the Williamsburg/Bushwick."
+        "name": "Audrius",
+        "date": "November 15, 2017",
+        "rating": 5,
+        "comments": "Top notch coffee and service. Get my coffee there several times a week. Cozy and clean place, good quality beverages, delicious desserts and top service! Probably the nicest and most polite baristas around!"
       },
       {
-        "name": "Laurel",
-        "date": "October 26, 2016",
-        "rating": 4,
-        "comments": "The pizza is fantastic, not THE best I've ever had, but would definitely go back since it has great food and great ambiance. Definitely worth going to. It has A LOT of hype in the New York food scene, and I question if it deserves all of it, but it's still a totally great spot to hit up when in the area!!"
+        "name": "Vaida",
+        "date": "May 17, 2017",
+        "rating": 5,
+        "comments": "When you enter, you immediately feel like at home. The owners work at their place and are so passionate and friendly and easy- going. Very nice atmosphere, amazing coffee and they make their ice-cream too. Definitely recommend to try pistachio ice-cream - incredibly delicious!"
       }
     ]
   }, {
     "id": 6,
-    "name": "Hometown BBQ",
-    "neighborhood": "Brooklyn",
+    "name": "Onore",
+    "neighborhood": "Palanga",
     "photograph": "6.jpg",
-    "address": "454 Van Brunt St, Brooklyn, NY 11231",
+    "address": "M. Valanchiaus g. 1",
+    "alt": "dish on the dark plate with pouring sous",
     "latlng": {
-      "lat": 40.674925,
-      "lng": -74.016162
+      "lat": 55.91741279999999,
+      "lng": 21.06457249999994
     },
-    "cuisine_type": "American",
+    "cuisine_type": "European",
     "operating_hours": {
-      "Monday": "Closed",
-      "Tuesday": "12:00 pm - 10:00 pm",
-      "Wednesday": "12:00 pm - 10:00 pm",
-      "Thursday": "12:00 pm - 10:00 pm",
-      "Friday": "12:00 pm - 11:00 pm",
-      "Saturday": "12:00 pm - 11:00 pm",
-      "Sunday": "12:00 pm - 9:00 pm"
+      "Monday": "12:00 - 22:30",
+      "Tuesday": "12:00 - 22:30",
+      "Wednesday": "12:00 - 22:30",
+      "Thursday": "12:00 - 22:30",
+      "Friday": "12:00 - 22:30",
+      "Saturday": "12:00 - 22:30",
+      "Sunday": "12:00 - 22:00"
     },
     "reviews": [{
-        "name": "Steve",
-        "date": "October 26, 2016",
-        "rating": 4,
-        "comments": "Barbecue aficionados agree that Billy Durney is cooking up some of the best Texas-style barbecue in the city. Straightforward classics like smoked brisket and baby back ribs are always a strong choice, but there are also options like pork belly tacos and a lamb belly banh mi. The space is sprawling in a way that feels like the real deal, and Durney himself can usually be found working the room, and keeping a watchful eye on the smoking meats. It's counter service only, and there's often a line, but for the scene and certainly for the meat, it's easily worth the trip to Red Hook."
+        "name": "Olga",
+        "date": "August 18, 2017",
+        "rating": 5,
+        "comments": "The best restaurant in Palanga, with modern and interesting dishes and yet reasonable prices for the quality of food and place itself. Service was very friendly, modern design, located in the new residence complex. Nice terrace. Good choice of sparkling wines."
       },
       {
-        "name": "Michelle",
-        "date": "October 26, 2016",
+        "name": "Vladimir",
+        "date": "January 30, 2018",
         "rating": 4,
-        "comments": "Overall, a great try of New York BBQ. The restaurant décor is rustic with a good amount of seats to sit and enjoy the meal. I definitely would love to come back and try that monster of a beef rib!"
+        "comments": "Very beautiful modern French themed restaurant. You can tell that the head chef is taking pride in his creations as he personally delivers and describes dishes."
       },
       {
-        "name": "Ai-Mei",
-        "date": "October 26, 2016",
-        "rating": 4,
-        "comments": "mmmmmm, what a gem this is in bklyn! I loveeee how soft their brisket is here. Their pork tacos are to die for, their different variety of ribs and lastly, their lamb is not gamey at all. Super wallet friendly for the amount they give you. I highly recommend this spot- after eating here, you can definitely walk over for Steve's key lime pies."
+        "name": "Lena",
+        "date": "July 25, 2017",
+        "rating": 3,
+        "comments": "The service is excellent but the dishes themselves are not as good as expected. My vegetables and peas were undercooked. Rather expensive."
       }
     ]
   }, {
     "id": 7,
-    "name": "Superiority Burger",
-    "neighborhood": "Manhattan",
+    "name": "Zuvine",
+    "neighborhood": "Palanga",
     "photograph": "7.jpg",
-    "address": "430 E 9th St, New York, NY 10009",
+    "address": "J. Basanavichiaus g. 37a",
+    "alt":"restaurant interior long sofa and tables",
     "latlng": {
-      "lat": 40.727397,
-      "lng": -73.983645
+      "lat": 55.91897669999999,
+      "lng": 21.055977999999982
     },
-    "cuisine_type": "American",
+    "cuisine_type": "Seafood",
     "operating_hours": {
-      "Monday": "11:30 am - 10:00 pm",
-      "Tuesday": "Closed",
-      "Wednesday": "11:30 am - 10:00 pm",
-      "Thursday": "11:30 am - 10:00 pm",
-      "Friday": "11:30 am - 10:00 pm",
-      "Saturday": "11:30 am - 10:00 pm",
-      "Sunday": "11:30 am - 10:00 pm"
+      "Monday": "10:00 - 01:00",
+      "Tuesday": "10:00 - 01:00",
+      "Wednesday": "10:00 - 01:00",
+      "Thursday": "10:00 - 01:00",
+      "Friday": "10:00 - 01:00",
+      "Saturday": "10:00 - 01:00",
+      "Sunday": "10:00 - 01:00"
     },
     "reviews": [{
-        "name": "Steve",
-        "date": "October 26, 2016",
+        "name": "Zlotana",
+        "date": "April 29, 2018",
         "rating": 4,
-        "comments": "Brooks Headley’s tiny East Village cafe is so much more than a veggie burger spot — it's one of the best bang-for-your-buck restaurants in Lower Manhattan. Headley and his crew turn seasonal vegetables into delectable salads and riffs on American comfort food favorites. The specials menu changes daily, and the rest of the menu is constantly evolving. You can get a lot of food to eat here for under $15 per person."
+        "comments": "You can find in Palanga wide range of very different places to eat (weekends or Summer time), but this is definitely serving nice variety of fish. From very usual, simple fish soup of the day till really interesting options. Enjoy!"
       },
       {
-        "name": "Gabriel",
-        "date": "October 26, 2016",
+        "name": "Tomas",
+        "date": "March 26, 2018",
+        "rating": 1,
+        "comments": "A very disappointing experience. Cosy place but good things end once you enter the place. Horribly slow service, horrible food, be that fish... in a fish restaurant or anything else. Even oysters were served with broken shells. All that accompanied by High prices by any standards. I usually don’t post negative posts, but this was a complete expensive disappointment."
+      },
+      {
+        "name": "Ruta",
+        "date": "March 9, 2018",
         "rating": 5,
-        "comments": "I was turned on to this place following the glowing NYT review. Its near my area of the city so I figured why not go? Man they weren't kidding, Superiority Burger is probably the best vegetarian experience I've ever had!"
-      },
-      {
-        "name": "Shivi",
-        "date": "October 26, 2016",
-        "rating": 4,
-        "comments": "Great flavors and very satisfying. Craving a sandwich, I stopped by on a Friday night with a vegetarian friend. Super small location with just a few seats inside. Ambiance is a bit industrial, good is definitely much more sophisticated than the look of the place! Ordered the superiority burger anda side of potato salad. The potato salad was very light and tasted clean ( less mayo, lots of dill and some cucumber) -- refreshing for a humid summer night! Sandwich was surprisingly delicious - it is very small ( funny allusion to a White Castle burger) but it packs a punch! Not only are there layers of flavors ( amazing sauces) but the party itself had a great texture Ahmed flavor-- well done and so wonderful! Will definitely stop by again for an overall amazing burger/sandwich. Staff was super nice and accommodating but not out of the way friendly."
+        "comments": "In addition to lovely and cozy atmosphere, we were pleasantly surprised by the quality of both food and service in this place. Our waiter was friendly and attentive to our needs, gave us some great recommendations. All food was cooked and presented to perfection. We had a genuinely great evening thanks to Žuvinė. P.S. Try some natural Lithuanian Gintaro Sino wine, which you can rarely find in other restaurants."
       }
     ]
   }, {
     "id": 8,
-    "name": "The Dutch",
-    "neighborhood": "Manhattan",
+    "name": "Olando Kepure",
+    "neighborhood": "Karkle",
     "photograph": "8.jpg",
-    "address": "131 Sullivan St, New York, NY 10012",
+    "address": "Krikštų g. 5",
+    "alt": "house in the woods",
     "latlng": {
-      "lat": 40.726584,
-      "lng": -74.002082
+      "lat": 55.8081809,
+      "lng": 21.075545000000034
     },
-    "cuisine_type": "American",
+    "cuisine_type": "European",
     "operating_hours": {
-      "Monday": "11:30 am - 3:00 pm, 5:30 pm - 11:00 pm",
-      "Tuesday": "11:30 am - 3:00 pm, 5:30 pm - 11:00 pm",
-      "Wednesday": "11:30 am - 3:00 pm, 5:30 pm - 11:00 pm",
-      "Thursday": "11:30 am - 3:00 pm, 5:30 pm - 11:00 pm",
-      "Friday": "11:30 am - 3:00 pm, 5:30 pm - 11:30 pm",
-      "Saturday": "10:00 am - 3:00 pm, 5:30 pm - 11:30 pm",
-      "Sunday": "10:00 am - 3:00 pm, 5:30 pm - 11:00 pm"
+      "Monday": "Day off",
+      "Tuesday": "Day off",
+      "Wednesday": "Day off",
+      "Thursday": "12:00 - 20:00",
+      "Friday": "12:00 - 20:00",
+      "Saturday": "12:00 - 20:00",
+      "Sunday": "12:00 - 20:00"
     },
     "reviews": [{
-        "name": "Steve",
-        "date": "October 26, 2016",
-        "rating": 4,
-        "comments": "Over the last five years, The Dutch has turned into the quintessential American restaurant that chef Andrew Carmellini and partners Josh Pickard and Luke Ostrom sought to evoke when it first opened. It’s a great choice when you’re craving a steak, a burger, or oysters, and the menu always includes plentiful seafood options as well as pastas. The Dutch is now an indelible part of the Soho landscape."
+        "name": "Egle",
+        "date": "November 1, 2017",
+        "rating": 5,
+        "comments": "Perfect place, deliciuos food, friendly staff, I recomend it for everyone."
       },
       {
-        "name": "Loren",
-        "date": "October 26, 2016",
-        "rating": 4,
-        "comments": "I randomly came here on a Saturday night. I was pleasantly surprised with the food and the service. We had the calamari and the ceviche with avocado, and then the catfish. Oh! Then we had the banana soufflé for dessert with ice cream. It was all delicious and well put together. Would love to eat here again."
+        "name": "Jeff",
+        "date": "July 29, 2017",
+        "rating": 5,
+        "comments": "A hidden gem... I had no idea this place even existed. A proper cafe in the forest near Olandu Kepure. Lovely building and outside seating."
       },
       {
-        "name": "Lori",
-        "date": "October 26, 2016",
-        "rating": 4,
-        "comments": "Aside from the slightly claustrophobic dining area and the fact that you may have difficulty hearing your dining companion, I'd return to The Dutch without hesitation. The food is surprisingly well-executed and conceived, and our dinner service flowed smoothly without a hitch. Just make sure to get a reservation in advance, as I'm sure more than just a few other people will have the same idea."
+        "name": "Jonas",
+        "date": "March 21, 2018",
+        "rating": 5,
+        "comments": "Great place to lay back and enjoy holiday. Put the hammack on, set a BBQ on and have a sea by the palm of hand with beautiful views. Best place!!!"
       }
     ]
   }, {
     "id": 9,
-    "name": "Mu Ramen",
-    "neighborhood": "Queens",
+    "name": "Nerija",
+    "neighborhood": "Nida",
     "photograph": "9.jpg",
-    "address": "1209 Jackson Ave, Queens, NY 11101",
+    "address": "Pamario g. 13",
+    "alt": "meat on white plate",
     "latlng": {
-      "lat": 40.743797,
-      "lng": -73.950652
+      "lat": 55.3073324,
+      "lng": 21.004205500000012
     },
-    "cuisine_type": "Asian",
+    "cuisine_type": "European",
     "operating_hours": {
-      "Monday": "5:00 pm - 10:00 pm",
-      "Tuesday": "5:00 pm - 10:00 pm",
-      "Wednesday": "5:00 pm - 10:00 pm",
-      "Thursday": "5:00 pm - 10:00 pm",
-      "Friday": "5:00 pm - 11:00 pm",
-      "Saturday": "5:00 pm - 11:00 pm",
-      "Sunday": "5:00 pm - 10:00 pm"
+      "Monday": "10:00 - 22:00",
+      "Tuesday": "10:00 - 22:00",
+      "Wednesday": "10:00 - 22:00",
+      "Thursday": "10:00 - 22:00",
+      "Friday": "10:00 - 23:00",
+      "Saturday": "10:00 - 23:00",
+      "Sunday": "10:00 - 23:00"
     },
     "reviews": [{
-        "name": "Steve",
-        "date": "October 26, 2016",
-        "rating": 4,
-        "comments": "Joshua Smookler’s two-year-old ramen shop serves one of the best tonkotsu broths around. Beyond ramen, Mu also offers some high minded plates, like foie gras-stuffed chicken wings, as well as dry-aged Japanese Wagyu beef specials. Mu is just 10 short minutes away from Midtown via the 7-train."
+        "name": "Ruta",
+        "date": "May 20, 2018",
+        "rating": 5,
+        "comments": "The very best restaurant in Nida. Very simple in interior design, but excellent in food. Everything! And service - just really very good. And view from the window - I like that original Nida house style."
       },
       {
-        "name": "Brittany",
-        "date": "October 26, 2016",
+        "name": "Sigue",
+        "date": "August 12, 2017",
         "rating": 4,
-        "comments": "Overall, I would definitely recommend this place if you enjoy thick curly noodles with a thick, intense broth.  If you don't there are still other options but I can't vouch for those."
+        "comments": "I like this restaurant, because this is the only true restaurant in Nida. The meals are delicious, waiters are quite good. But they are not ready to serve meals on terrace properly. As we reserved one table outside later in the evening, the main courses came in darkness. The lighting outside is bad and we hardly could see what we are eating."
       },
       {
-        "name": "Sally",
-        "date": "October 26, 2016",
+        "name": "Giedre",
+        "date": "July 28, 2017",
         "rating": 4,
-        "comments": "One of the tastiest and most unique ramen places I've been to in NYC, but also the priciest. I think overall its worth the try. Not an everyday casual ramen shop though."
+        "comments": "10 points out of 10. Perfect. Food was absolutely good, service very nice, professional. Try it for sure!"
       }
     ]
   }, {
     "id": 10,
-    "name": "Casa Enrique",
-    "neighborhood": "Queens",
+    "name": "Anikes Kavine",
+    "neighborhood": "Klaipeda",
     "photograph": "10.jpg",
-    "address": "5-48 49th Ave, Queens, NY 11101",
+    "address": "Teatro Aikste 7",
+    "alt": "",
     "latlng": {
-      "lat": 40.743394,
-      "lng": -73.954235
+      "lat": 55.70809939999999,
+      "lng": 21.132067199999938
     },
-    "cuisine_type": "Mexican",
+    "cuisine_type": "Cafe",
     "operating_hours": {
-      "Monday": "5:00 pm - 12:00 am",
-      "Tuesday": "5:00 pm - 12:00 am",
-      "Wednesday": "5:00 pm - 12:00 am",
-      "Thursday": "5:00 pm - 12:00 am",
-      "Friday": "5:00 pm - 12:00 am",
-      "Saturday": "11:00 am - 12:00 am",
-      "Sunday": "11:00 am - 12:00 am"
+      "Monday": "11:00 - 22:00",
+      "Tuesday": "11:00 - 22:00",
+      "Wednesday": "11:00 - 22:00",
+      "Thursday": "11:00 - 22:00",
+      "Friday": "11:00 - 22:00",
+      "Saturday": "11:00 - 22:00",
+      "Sunday": "11:00 - 21:00"
     },
     "reviews": [{
-        "name": "Steve",
-        "date": "October 26, 2016",
+        "name": "Violeta",
+        "date": "March 2, 2017",
         "rating": 5,
-        "comments": "Head to this laid-back Long Island City restaurant for beef tongue tacos, chicken smothered in a heady mole sauce, and a monster crab tostada. New York's only Michelin-starred Mexican restaurant is an especially cool choice for lunch during the week or drinks after work. Eater critic Ryan Sutton awarded this restaurant two stars."
+        "comments": "What a lovely place! It is so cosy to sit there, pass your time enjoying the views of Anike square and, of course, sipping a nice cup of tea (a great variety!) or coffee (what a choice! ) And cakes - absolutely delicious!"
       },
       {
-        "name": "Rob",
-        "date": "October 26, 2016",
-        "rating": 5,
-        "comments": "The hype was real. Please go. Get the ceviche. And the tres leches. You're welcome"
+        "name": "Alex",
+        "date": "March 23, 2017",
+        "rating": 3,
+        "comments": "A cozy cafe in the heart of the old town. Since the main weather of the city of Klaipeda is damp and rain, it is quite suitable for a friendly tea party."
       },
       {
-        "name": "Jason",
-        "date": "October 26, 2016",
+        "name": "Arglistina",
+        "date": "June 25, 2017",
         "rating": 4,
-        "comments": "For a Michelin star restaurant, it's fairly priced and the food is fairly good. Started with a strawberry margarita which was good in flavor but not much alcohol. Had the chicken enchiladas with salsa verde and it was really good. Great balance in flavor and a good portion. Extra tasty with their hot sauces. My wife had the lamb but it was a bit too salty for our taste. Although, it was cooked very well and fell off the bone. The highlight of the night was the tres leches cake. Probably the best I've ever had to be honest. Not too sweet and very milky. Overall, one of my top 3 favorite Mexican in NY."
+        "comments": "The atmosphere and location are really good. Big choice of tea and coffee. The cakes though were really really sweet."
       }
     ]
   }]
