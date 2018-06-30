@@ -1,5 +1,5 @@
 # Restaurant Reviews App
-## Project Overview: Stage 1
+## Project Overview
 This is a project for Udacity Front-End Nanodegree program: the web-application represents local restaurants of Lithuania.
 
 ## Project specifics
@@ -14,7 +14,7 @@ Implemented tasks: accessibility issues fixed, CSS responsive desing added and f
 ## How to install
 1. Download the repository:
 ```
-git clone
+git clone https://github.com/usjulija/restaurantApp.git
 ```
 2. In terminal indicate the following:
 * if you are using python 2:
@@ -35,3 +35,6 @@ python3 -m http.server 8000
 * The logo was designed by [freepic](https://www.freepik.com/)
 * Restaurant reviews were taken from [tripadvisor](https://www.tripadvisor.com/Restaurants-g274949-Klaipeda_Klaipeda_County.html)
 * This repository uses [leafletjs](https://leafletjs.com/) with [Mapbox](https://www.mapbox.com/) in order to display the map.
+* Adding a Service Worker and Offline into your Web App by [Paul Kinlan](https://developers.google.com/web/fundamentals/codelabs/offline/?authuser=1)
+* Making a Simple Site Work Offline with ServiceWorker by [Nicolas Bevacqua](https://css-tricks.com/serviceworker-for-offline/)
+* Udacity FEND lessons
