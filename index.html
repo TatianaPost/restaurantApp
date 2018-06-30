@@ -30,15 +30,15 @@
   </header>
 
   <main id="maincontent" role="main">
-    <section id="map-container" aria-label="Map of restaurants">
+    <section id="map-container" tabindex="-1" aria-label="Map of restaurants">
       <div id="map" role="presentation"></div>
     </section>
-    <section class="filter-options" role="section" aria-label="Restaurant and neighborhood choice">
+    <section class="filter-options" aria-label="Restaurant and neighborhood choice">
       <h2>Choose from the below</h2>
-      <select aria-label="Neighborhoods list" id="neighborhoods-select" name="neighborhoods" onchange="updateRestaurants()">
+      <select aria-label="Neighborhoods list" role="listbox" id="neighborhoods-select" name="neighborhoods" onchange="updateRestaurants()">
         <option value="all">All Neighborhoods</option>
       </select>
-      <select aria-label="Cuisines list" id="cuisines-select" name="cuisines" onchange="updateRestaurants()">
+      <select aria-label="Cuisines list"  role="listbox" id="cuisines-select" name="cuisines" onchange="updateRestaurants()">
         <option value="all">All Cuisines</option>
       </select>
     </section>
