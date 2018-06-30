@@ -12,9 +12,9 @@
 </head>
 
 <body>
-  <header>
-    <a href="/" aria-label="Restaurant reviews main page logo">
-      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 91.8 92" alt="Bon Appetit logo fork">
+  <header role="banner" aria-labelby="main-heading">
+    <a href="/" aria-label="Restaurant reviews main page logo" tabindex="1">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 91.8 92" alt="Bon Appetit logo fork" role="img">
           <g>
             <path fill="none" d="M-273.7 104.8h199.1v21.3h-199.1zM-248.4 130.6h148.7v7.6h-148.7zM-275.5 281.7h199.1V303h-199.1zM-250.3 307.5h148.7v7.6h-148.7zM-53.1 281.7H146V303H-53.1zM-27.9 307.5h148.7v7.6H-27.9zM-53.9 104.8h199.1v21.3H-53.9zM-28.7 130.6H120v7.6H-28.7z"/>
             <circle class="logo-circle" fill="#006992" cx="45.6" cy="45.9" r="44.6"/>
@@ -26,14 +26,14 @@
           </g>
       </svg>
     </a>
-    <h1><span class="poller">Bon Appetit </span>Restaurant Reviews</h1>
+    <h1 id="main-heading"><span class="poller">Bon Appetit </span>Restaurant Reviews</h1>
   </header>
 
-  <main id="maincontent">
-    <section id="map-container">
+  <main id="maincontent" role="main">
+    <section id="map-container" aria-label="Map of restaurants">
       <div id="map" role="presentation"></div>
     </section>
-    <section class="filter-options" >
+    <section class="filter-options" role="section" aria-label="Restaurant and neighborhood choice">
       <h2>Choose from the below</h2>
       <select aria-label="Neighborhoods list" id="neighborhoods-select" name="neighborhoods" onchange="updateRestaurants()">
         <option value="all">All Neighborhoods</option>
@@ -42,11 +42,11 @@
         <option value="all">All Cuisines</option>
       </select>
     </section>
-    <section>
+    <section aria-label="list of restaurants">
       <ul id="restaurants-list"></ul>
     </section>
   </main>
-  <footer id="footer">
+  <footer id="footer" role="contentinfo">
     Copyright (c) 2018 <a href="/"><span class="poller">Restaurant Reviews</span></a>
     designed by <a href="http://julia-juls.com/" target="_blank"><span class="poller">Julia Us</span></a>
   </footer>
