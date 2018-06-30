@@ -181,9 +181,9 @@ createRestaurantHTML = (restaurant) => {
   more.setAttribute("role", "button");
   more.href = DBHelper.urlForRestaurant(restaurant);
 
-  li.append(more)
+  li.append(more);
 
-  return li
+  return li;
 }
 
 /**

@@ -1,18 +1,4 @@
 @import url('https://fonts.googleapis.com/css?family=Poller+One|Raleway');
-/* My fonts:
-font-family: 'Raleway', sans-serif;
-font-family: 'Poller One', cursive;
-*/
-
-/* Content:
--variables
--general classes
--main content
---flexboxes
---heading
---map
---list of restaurants
---restaurant content */
 
 /* ========= Main CSS variables ======= */
 :root {
@@ -58,13 +44,13 @@ a {
   color: var(--sea-blue);
 }
 
-a:hover,
+/* a:hover,
 a:focus {
   color: var(--orange);
   -webkit-transform: scale(1.2);
   transform: scale(1.2);
   outline: 0;
-}
+} */
 
 h1 {
   font-size: 1.2em;
@@ -91,9 +77,9 @@ h2 {
 /* ======= Flexboxes ====== */
 header,
 .filter-options,
+.address,
 #restaurants-list,
 #restaurant-container,
-.address,
 #reviews-list,
 #reviews-list li {
   display: flex;
@@ -106,10 +92,10 @@ header,
 }
 
 .filter-options,
-#restaurants-list,
-#restaurant-container,
 .address,
 .restaurant-visual,
+#restaurants-list,
+#restaurant-container,
 #reviews-list {
   align-items: center;
   justify-content: center;
@@ -138,6 +124,14 @@ header a {
   transition: all 0.3s linear;
   -webkit-transition: all 0.4s ease;
 }
+
+header a:hover,
+header a:focus {
+  -webkit-transform: scale(1.15);
+  transform: scale(1.15);
+  outline: 0;
+}
+
 /* ===== SVG animation of the main logo ======= */
 .logo-circle {
 	animation-name: changeColor;
@@ -199,7 +193,9 @@ header a {
 select:hover,
 select:focus {
   background-color: var(--orange);
-  color: var(--white);
+  color: var(--oxford-blue);
+  border-right: 2px solid var(--oxford-blue);
+  border-bottom: 2px solid var(--oxford-blue);
   -webkit-transform: scale(1.1);
   transform: scale(1.1);
   outline: 0;
@@ -225,9 +221,9 @@ select:focus {
 }
 
 #restaurants-list li img {
-  /* background-color: #ccc; */
   display: block;
   width: 100%;
+  max-width: 290px;
   min-height: 80%;
   max-height: 100%;
   border-radius: 25px 0 0 0;
@@ -242,6 +238,7 @@ select:focus {
   border-radius: 0 0 25px 0;
   padding: var(--big-padding);
   width: 100%;
+  max-width: 290px;
 }
 
 #restaurants-list li p {
@@ -260,6 +257,15 @@ select:focus {
   text-align: center;
   text-transform: uppercase;
   transition: all 0.5s ease;
+  border-right: 2px solid var(--oxford-blue);
+  border-bottom: 2px solid var(--oxford-blue);
+}
+
+#restaurants-list li a:hover,
+#restaurants-list li a:focus {
+  background-color: var(--orange);
+  color: var(--oxford-blue);
+  outline: 0;
 }
 
 /* ====================== Restaurant Details ====================== */
@@ -272,7 +278,6 @@ select:focus {
     flex: 100%;
 }
 
-/* Display list items side by side */
 #breadcrumb li {
     display: inline;
 }
@@ -284,17 +289,18 @@ select:focus {
     content: "/\00a0";
 }
 
-/* Add a color to all links inside the list */
 #breadcrumb li a {
-    color: var(--sea-blue);
+    color: var(--oxford-blue);
+    text-decoration: underline;
 }
 
-/* Add a color on mouse-over */
-#breadcrumb li a:hover {
+#breadcrumb li a:hover,
+#breadcrumb li a:focus {
     color: var(--white);
     text-decoration: underline;
 }
 
+/* Map section */
 .inside #map-container {
   height: 170px;
   flex: 100%;
@@ -306,6 +312,7 @@ select:focus {
   width: 100%;
 }
 
+/* Restaurant information section */
 #restaurant-container,
 #reviews-container {
   flex: 100%;
@@ -346,7 +353,6 @@ select:focus {
   font-weight: normal;
   letter-spacing: 10px;
   margin-bottom: var(--main-margin);
-  margin-top: -5px;
   padding-top: var(--big-padding);
   padding-bottom: var(--big-padding);
   text-align: center;
@@ -383,7 +389,7 @@ select:focus {
   color: var(--deep-blue);
 }
 
-
+/* The reviews section */
 #reviews-container {
   background: var(--sea-blue);
 }
@@ -420,7 +426,9 @@ select:focus {
 
 .rating {
   padding: 0.5em;
-  color: var(--white);
+  color: var(--oxford-blue);
+  border: 1.5px solid var(--oxford-blue);
+  font-weight: 600;
   background: var(--orange);
   margin: 1em 0 0 1em;
   border-radius: 5px;
@@ -453,27 +461,27 @@ select:focus {
 
 #footer a {
   transition: all 0.5s ease;
+  color: #d9d9d9;
 }
 
 #footer a:hover,
 #footer a:focus {
   text-decoration: underline;
+  color: var(--orange);
+  outline: 0;
 }
 
-/* First break-pont for 450px and wider*/
-@media screen and (min-width: 450px) {
-  .filter-options select {
-    width: 40%;
-  }
-}
-
-/* Second break-pont for 650px and wider*/
+/*======== Responsivness =======*/
 @media screen and (min-width: 650px) {
   :root {
     --main-padding: 1%;
     --main-margin: 2%;
     --big-padding: 3%;
     --big-margin: 6%;
+  }
+
+  .filter-options select {
+    width: 45%;
   }
 
   #restaurants-list li {
@@ -497,14 +505,13 @@ select:focus {
   }
 }
 
-/* Third break-point for 850px and wider */
 @media screen and (min-width: 850px) {
   :root {
     --main-font-size: 19px;
   }
 
-  a:hover,
-  a:focus {
+  header a:hover,
+  header a:focus {
     -webkit-transform: scale(1.1);
     transform: scale(1.1);
   }
