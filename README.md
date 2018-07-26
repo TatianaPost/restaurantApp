@@ -28,6 +28,7 @@ python3 -m http.server 8000
 3. Visit the site: `http://localhost:8000`
 
 ## App preview
+[Online preview](https://usjulija.github.io/restaurantApp/)
 ![Restaurant review app preview](https://image.ibb.co/ePStgd/localhost_8000_1.jpg)
 
 ## Acknowledgments
